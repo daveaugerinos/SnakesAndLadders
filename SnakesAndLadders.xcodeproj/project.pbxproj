@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A25BCAB21E54087D00700E3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BCAB11E54087D00700E3E /* main.m */; };
+		A25BCABA1E54097500700E3E /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BCAB91E54097500700E3E /* InputCollector.m */; };
+		A25BCABD1E540CF400700E3E /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BCABC1E540CF400700E3E /* GameController.m */; };
+		A25BCAC01E540D0E00700E3E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BCABF1E540D0E00700E3E /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		A25BCAAE1E54087D00700E3E /* SnakesAndLadders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnakesAndLadders; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25BCAB11E54087D00700E3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A25BCAB81E54097500700E3E /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		A25BCAB91E54097500700E3E /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		A25BCABB1E540CF400700E3E /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		A25BCABC1E540CF400700E3E /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		A25BCABE1E540D0E00700E3E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		A25BCABF1E540D0E00700E3E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				A25BCAB11E54087D00700E3E /* main.m */,
+				A25BCABB1E540CF400700E3E /* GameController.h */,
+				A25BCABC1E540CF400700E3E /* GameController.m */,
+				A25BCABE1E540D0E00700E3E /* Player.h */,
+				A25BCABF1E540D0E00700E3E /* Player.m */,
+				A25BCAB81E54097500700E3E /* InputCollector.h */,
+				A25BCAB91E54097500700E3E /* InputCollector.m */,
 			);
 			path = SnakesAndLadders;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25BCAC01E540D0E00700E3E /* Player.m in Sources */,
+				A25BCABD1E540CF400700E3E /* GameController.m in Sources */,
+				A25BCABA1E54097500700E3E /* InputCollector.m in Sources */,
 				A25BCAB21E54087D00700E3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
